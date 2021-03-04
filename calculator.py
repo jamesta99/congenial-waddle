@@ -1,4 +1,4 @@
-def calculator(float number1, float number2, string operator):
+def calculator(number1, number2, operator):
 	'''Recieves two numbers and an operator, then performs an operation using both numbers
 and the operator. Prints the result afterwards'''
 	answer = 0.0
@@ -23,8 +23,8 @@ def input_output():
 them to the calculator function for evaluation. After the answer is printed, asks the user to continue or not'''
 	number1 = 0.0
 	number2 = 0.0
-	number1 = int(input("Enter the first number: "))
-	number2 = int(input("Enter the second number: "))
+	number1 = float(input("Enter the first number: "))
+	number2 = float(input("Enter the second number: "))
 	operator = input("Enter the operation: ")
 	calculator(number1, number2, operator)
 	terminate = input("Do you wish to exit? ")
