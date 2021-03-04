@@ -28,7 +28,7 @@ them to the calculator function for evaluation. After the answer is printed, ask
 	operator = input("Enter the operation: ")
 	calculator(number1, number2, operator)
 	terminate = input("Do you wish to exit? ")
-	if terminate == n
+	if terminate == "n"
 		input_output()
-	elif terminate == y
+	elif terminate == "y"
 		sys.exit("Program ended")
