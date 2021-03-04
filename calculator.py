@@ -16,6 +16,7 @@ and the operator. Prints the result afterwards'''
 	else:
 		sys.exit("Invalid operation")
 	print(answer)
+	return answer
 
 def input_output():
 	'''Function for evaluating simple expressions. Asks the user for two numbers and an operator, then passes 
@@ -24,7 +25,7 @@ them to the calculator function for evaluation. After the answer is printed, ask
 	number2 = float(input("Enter the second number: "))
 	operator = input("Enter the operation: ")
 	calculator(number1, number2, operator)
-	terminate = input("Do you wish to exit? ")
+	terminate = input("Do you wish to exit?")
 	if terminate == "n":
 		input_output()
 	elif terminate == "y":
