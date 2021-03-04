@@ -20,8 +20,6 @@ and the operator. Prints the result afterwards'''
 def input_output():
 	'''Function for evaluating simple expressions. Asks the user for two numbers and an operator, then passes 
 them to the calculator function for evaluation. After the answer is printed, asks the user to continue or not'''
-	number1 = 0.0
-	number2 = 0.0
 	number1 = float(input("Enter the first number: "))
 	number2 = float(input("Enter the second number: "))
 	operator = input("Enter the operation: ")
