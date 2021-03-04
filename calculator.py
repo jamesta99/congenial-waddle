@@ -1,7 +1,6 @@
 def calculator(number1, number2, operator):
 	'''Recieves two numbers and an operator, then performs an operation using both numbers
 and the operator. Prints the result afterwards'''
-	answer = 0.0
 	if operator == "+":
 		answer = number1 + number2
 	elif operator == "-":
